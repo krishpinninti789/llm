@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import "./App.css";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { gsap } from "gsap";
+import Features from "./components/Features";
 
 function App() {
   return (
