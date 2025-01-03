@@ -3,10 +3,13 @@ module.exports = {
   content: ["./src/**/*.{html,js,*}"],
   theme: {
     extend: {
+      colors: {
+        brand1: "#FF5E00",
+      },
       fontFamily: {
-        serif: ['Instrument Serif', 'serif'],
+        serif: ["Instrument Serif", "serif"],
       },
     },
   },
   plugins: [],
-}
+};

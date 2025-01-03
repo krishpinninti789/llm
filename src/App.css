@@ -1,1 +1,7 @@
+.innershadow {
+  box-shadow: inset 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
 
+.popups {
+  @apply absolute p-4 bg-[#FFAB7A] font-serif rounded-full text-4xl;
+}
