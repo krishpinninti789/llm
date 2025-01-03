@@ -11,8 +11,9 @@
 }
 
 .inner {
-  box-shadow: inset 10 50 20px #ee0000;
+  box-shadow: inset 10 50 20px #dddfe2;
 }
 .popups {
   @apply absolute p-4 bg-[#FFAB7A] font-serif rounded-full text-4xl;
 }
+ 
