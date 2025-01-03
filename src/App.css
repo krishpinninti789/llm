@@ -35,6 +35,9 @@
 .featuresGridDiv {
   @apply border-[1px] w-full h-full rounded-lg;
 }
+.shd{
+box-shadow: inset 6px 6px 24px 2px rgb(44, 45, 56);
+}
 
 .parent {
   display: grid;

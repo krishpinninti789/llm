@@ -24,8 +24,8 @@ const Popups = () => {
           ease: "power1.inOut",
           scrollTrigger: {
             trigger: balloonRef,
-            start: "top 80%", // Trigger when the element reaches 80% of the viewport height from the top
-            end: "bottom 60%", // Optional, you can set an end point if needed
+            start: "top 20%", // Trigger when the element reaches 80% of the viewport height from the top
+            end: "bottom 10%", // Optional, you can set an end point if needed
             scrub: false, // No smooth scrubbing
             markers: false, // Set to true for debugging (see scroll trigger markers)
             onEnter: () => {
