@@ -1,7 +1,18 @@
 .innershadow {
   box-shadow: inset 0px 4px 10px rgba(0, 0, 0, 0.5);
 }
+.noise {
+  background: radial-gradient(
+    circle,
+    rgba(255, 254, 254, 0.03) 1%,
+    transparent 50%
+  );
+  background-size: 10px 20px; /* Adjust grid size */
+}
 
+.inner {
+  box-shadow: inset 10 50 20px #ee0000;
+}
 .popups {
   @apply absolute p-4 bg-[#FFAB7A] font-serif rounded-full text-4xl;
 }
